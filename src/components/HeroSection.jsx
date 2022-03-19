@@ -25,6 +25,7 @@ export default function HeroSection() {
         autoplay: true,
         speed: 500,
         autoplaySpeed: 3500,
+        pauseOnHover: true,
         cssEase: "linear"
     };
   return (
