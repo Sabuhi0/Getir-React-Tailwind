@@ -2,7 +2,7 @@ import { useState } from "react";
 import Slider from "react-slick";
 import ReactFlagsSelect from 'react-flags-select';
 
-export default function HeroSection() {
+function HeroSection() {
 
     const [selected, setSelected] = useState('TR');
 
@@ -72,3 +72,5 @@ export default function HeroSection() {
         </div>
     )
 }
+
+export default HeroSection;
