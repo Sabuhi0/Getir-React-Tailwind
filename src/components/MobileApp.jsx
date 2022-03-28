@@ -23,6 +23,4 @@ function MobileApp() {
   )
 }
 
-// Test commit
-
 export default MobileApp
