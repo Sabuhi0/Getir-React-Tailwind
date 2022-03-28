@@ -5,6 +5,7 @@ import Campaigns from "./components/Campaigns";
 import Favorites from "./components/Favorites";
 import MobileApp from "./components/MobileApp";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Favorites/>
       <MobileApp/>
       <Cards/>
+      <Footer/>
     </>
   )
 }
