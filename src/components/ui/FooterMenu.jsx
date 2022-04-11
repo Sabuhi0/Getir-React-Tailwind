@@ -14,7 +14,7 @@ function FooterMenu({title, items}) {
         }
     }
 
-    useEffect(()=> {
+    useEffect(() => {
         if (isOpen && windowWidth <= 768) {
             setIsOpen(false)
         }
