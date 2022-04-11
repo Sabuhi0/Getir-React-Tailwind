@@ -29,3 +29,11 @@
 .flag-select button >span span:nth-child(2) {
     @apply text-sm pl-2 
 }
+
+.ReactCollapse--collapse {
+    @apply transition-all;
+}
+
+.shadow-getir {
+    box-shadow: rgb(88 63 181 / 8%) 0px 2px 16px;
+}
