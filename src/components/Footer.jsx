@@ -83,7 +83,7 @@ function Footer() {
         <div className="grid gap-y-6 grid-cols-1 md:flex md:justify-between pt-5 md:pt-10">
           <section>
             <h1 className="text-lg text-primary-brand-color mb-4">Getir'i indirin!</h1>
-            <nav className="grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-1">
+            <nav className="grid gap-4 grid-cols-1">
               <a href="/">
                 <img src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="" />
               </a>
