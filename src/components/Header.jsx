@@ -3,7 +3,7 @@ import { RiUserFill, RiUserAddFill } from 'react-icons/ri';
 import { HiLocationMarker } from 'react-icons/hi';
 import { IoIosArrowForward } from 'react-icons/io';
 
-export default function Header() {
+function Header() {
   return (
     <>
         <div className="bg-brand-color">
@@ -38,3 +38,6 @@ export default function Header() {
     </>
   )
 }
+
+
+export default Header;
