@@ -12,9 +12,9 @@ function Categories() {
 	}, [])
 
 	return (
-		<div className="bg-white py-6">
-			<div className="container mx-auto">
-				<h3 className="font-semibold text-sm mb-2">Kategoriler</h3>
+		<div className="bg-white py-6 shadow-getir">
+			<div className="md:container mx-auto">
+				<h3 className="font-semibold text-sm mb-2 px-6 md:px-0">Kategoriler</h3>
 				<div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-12">
                     {!categories.length && 'Yükleniyor..'}
 					{categories && categories.map(category => <Category key={category.id} category={category} />)}
