@@ -84,4 +84,4 @@ const Campaigns = () => {
     )
 }
 
-export default Campaigns
+export default Campaigns;
