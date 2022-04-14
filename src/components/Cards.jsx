@@ -2,7 +2,7 @@ import {useState, useEffect} from "react"
 import CardsData from '../api/cards.json';
 
 
-function Cards() {
+const Cards = () => {
 
     const [cards, setCards] = useState([]);
 
