@@ -7,4 +7,4 @@ const Category = ({category: {id,title,image}}) => {
     )
   }
   
-  export default Category
+  export default Category;
