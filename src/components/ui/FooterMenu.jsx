@@ -54,4 +54,4 @@ const FooterMenu = ({title, items}) => {
     )
 }
 
-export default FooterMenu
+export default FooterMenu;
