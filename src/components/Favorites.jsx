@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react';
 import Products from '../api/products.json';
 import ProductItem from './ui/ProductItem';
 
-function Favorites() {
+const Favorites = () => {
 
     const [products, setProducts] = useState([]);
 
