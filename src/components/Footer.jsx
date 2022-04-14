@@ -3,7 +3,7 @@ import { BiGlobe } from 'react-icons/bi';
 import { BsFacebook } from 'react-icons/bs';
 import { FaTwitter, FaInstagram } from 'react-icons/fa';
 
-function Footer() {
+const Footer = () => {
 
   const menus = [
     {
