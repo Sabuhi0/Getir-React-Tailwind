@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import ReactFlagsSelect from 'react-flags-select';
 import { useWindowWidth } from '@react-hook/window-size';
 
-function HeroSection() {
+const HeroSection = () => {
 
     const [selected, setSelected] = useState('TR');
 
