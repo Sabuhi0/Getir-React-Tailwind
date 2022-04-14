@@ -3,7 +3,7 @@ import { RiUserFill, RiUserAddFill } from 'react-icons/ri';
 import { HiLocationMarker } from 'react-icons/hi';
 import { IoIosArrowForward } from 'react-icons/io';
 
-function Header() {
+const Header = () => {
   return (
     <>
         <div className="bg-brand-color">
