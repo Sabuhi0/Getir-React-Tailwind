@@ -3,7 +3,7 @@ import {Collapse} from 'react-collapse';
 import { useWindowWidth } from '@react-hook/window-size';
 import { IoIosArrowDown } from "react-icons/io";
 
-function FooterMenu({title, items}) {
+const FooterMenu = ({title, items}) => {
 
     const windowWidth = useWindowWidth()
     const [isOpen, setIsOpen] = useState(true)
