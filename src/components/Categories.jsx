@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import categoryData from '../api/categories.json'
 import Category from './ui/Category';
 
-function Categories() {
+const Categories = () => {
 
 	const [categories, setCategories] = useState([])
 
