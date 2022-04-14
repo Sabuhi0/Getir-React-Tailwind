@@ -1,4 +1,4 @@
-function MobileApp() {
+const MobileApp = () => {
   return (
     <div className="md:container mx-auto flex justify-between items-center bg-primary-brand-color bg-mobile-app mt-6 md:rounded-lg text-white">
       <div className="flex flex-col text-left gap-y-3 p-6 md:p-10">
