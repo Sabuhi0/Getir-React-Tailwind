@@ -23,7 +23,7 @@ function PrevButton ({ onClick, className }) {
 }
 
 
-function Campaigns() {
+const Campaigns = () => {
     const [banners,setBanners] = useState([]);
 
     const windowWidth = useWindowWidth()
