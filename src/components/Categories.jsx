@@ -1,5 +1,5 @@
-import {useEffect, useState} from 'react'
-import categoryData from '../api/categories.json'
+import {useEffect, useState} from 'react';
+import categoryData from '../api/categories.json';
 import Category from './ui/Category';
 
 const Categories = () => {
