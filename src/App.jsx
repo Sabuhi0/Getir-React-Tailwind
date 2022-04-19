@@ -13,30 +13,32 @@ const App = () => {
 
   return (
     <>
-      <section id="header">
+      <header id="header">
         <Header/>
-      </section>
-      <section id="responsive-campaigns">
-        {windowWidth <= 768 && <Campaigns />}
-      </section>
-      <section id="hero">
-        <HeroSection/>
-      </section>
-      <section id="categories">
-        <Categories/>
-      </section>
-      <section id="campaigns">
-        {windowWidth >= 768 && <Campaigns />}
-      </section>
-      <section id="favorites">
-        <Favorites/>
-      </section>
-      <section id="mobile-app">
-        <MobileApp/>
-      </section>
-      <section id="cards">
-        <Cards/>
-      </section>
+      </header>
+      <main id="main">
+        <section id="responsive-campaigns">
+          {windowWidth <= 768 && <Campaigns />}
+        </section>
+        <section id="hero">
+          <HeroSection/>
+        </section>
+        <section id="categories">
+          <Categories/>
+        </section>
+        <section id="campaigns">
+          {windowWidth >= 768 && <Campaigns />}
+        </section>
+        <section id="favorites">
+          <Favorites/>
+        </section>
+        <section id="mobile-app">
+          <MobileApp/>
+        </section>
+        <section id="cards">
+          <Cards/>
+        </section>
+      </main>
       <footer id="footer">
         <Footer/>
       </footer>
