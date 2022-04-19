@@ -37,7 +37,9 @@ const App = () => {
       <section id="cards">
         <Cards/>
       </section>
-      <Footer/>
+      <footer id="footer">
+        <Footer/>
+      </footer>
     </>
   )
 }
