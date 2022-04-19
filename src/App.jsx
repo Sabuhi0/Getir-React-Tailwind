@@ -34,7 +34,9 @@ const App = () => {
       <section id="mobile-app">
         <MobileApp/>
       </section>
-      <Cards/>
+      <section id="cards">
+        <Cards/>
+      </section>
       <Footer/>
     </>
   )
