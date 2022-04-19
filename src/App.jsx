@@ -20,7 +20,9 @@ const App = () => {
       <section id="hero">
         <HeroSection/>
       </section>
-      <Categories/>
+      <section id="categories">
+        <Categories/>
+      </section>
       {windowWidth >= 768 && <Campaigns />}
       <Favorites/>
       <MobileApp/>
