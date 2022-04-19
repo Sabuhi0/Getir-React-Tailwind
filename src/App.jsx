@@ -13,9 +13,13 @@ const App = () => {
 
   return (
     <>
-      <Header/>
+      <section id="header">
+        <Header/>
+      </section>
       {windowWidth <= 768 && <Campaigns />}
-      <HeroSection/>
+      <section id="hero">
+        <HeroSection/>
+      </section>
       <Categories/>
       {windowWidth >= 768 && <Campaigns />}
       <Favorites/>
