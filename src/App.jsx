@@ -23,7 +23,9 @@ const App = () => {
       <section id="categories">
         <Categories/>
       </section>
-      {windowWidth >= 768 && <Campaigns />}
+      <section id="campaigns">
+        {windowWidth >= 768 && <Campaigns />}
+      </section>
       <Favorites/>
       <MobileApp/>
       <Cards/>
