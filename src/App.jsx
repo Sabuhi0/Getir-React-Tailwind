@@ -16,7 +16,9 @@ const App = () => {
       <section id="header">
         <Header/>
       </section>
-      {windowWidth <= 768 && <Campaigns />}
+      <section id="responsive-campaigns">
+        {windowWidth <= 768 && <Campaigns />}
+      </section>
       <section id="hero">
         <HeroSection/>
       </section>
