@@ -8,7 +8,9 @@
 
 
 @layer base {
-    html, body {
+
+    html,
+    body {
         font-family: 'Open Sans', sans-serif;
         @apply antialiased bg-gray-50
     }
@@ -23,11 +25,11 @@
 }
 
 .flag-select button {
-    @apply h-14 border-2 border-gray-200 bg-white rounded transition-colors hover:border-primary-brand-color 
+    @apply h-14 border-2 border-gray-200 bg-white rounded transition-colors hover:border-primary-brand-color
 }
 
-.flag-select button >span span:nth-child(2) {
-    @apply text-sm pl-2 
+.flag-select button>span span:nth-child(2) {
+    @apply text-sm pl-2
 }
 
 .ReactCollapse--collapse {
@@ -36,4 +38,8 @@
 
 .shadow-getir {
     box-shadow: rgb(88 63 181 / 8%) 0px 2px 16px;
+}
+
+.bg-mobile-app {
+    background-image: url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png);
 }

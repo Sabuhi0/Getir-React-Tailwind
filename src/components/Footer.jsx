@@ -76,7 +76,7 @@ const Footer = () => {
       ]
     }
   ]
-  
+
   return (
     <div className="bg-white mt-10">
       <div className="md:container mx-auto px-4 md:px-0">
@@ -95,12 +95,12 @@ const Footer = () => {
               </a>
             </nav>
           </section>
-          { 
-            menus.map((menu, index) => <FooterMenu key={index} {...menu}/>)
+          {
+            menus.map((menu, index) => <FooterMenu key={index} {...menu} />)
           }
           <div className="hidden xl:block">
             <figure className="w-[104] h-[116px] flex items-center justify-center drop-shadow-lg bg-white p-4 rounded-lg">
-              <img className="w-[72px] h-[84px]" src="https://getir.com/_next/static/images/etbis-33c159729adc8b4e2b946310f038d2f4.png" alt="" />
+              <img className="w-[72px] h-[84px]" src="https://cdn.getir.com/getirweb-images/common/etbis.png" alt="" />
             </figure>
           </div>
         </div>
@@ -113,16 +113,16 @@ const Footer = () => {
           </div>
           <ul className="flex gap-x-3">
             <li>
-              <a href="/" className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:text-primary-brand-color hover:bg-opacity-10" > <BsFacebook size={20}/> </a>
+              <a href="/" className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:text-primary-brand-color hover:bg-opacity-10" > <BsFacebook size={20} /> </a>
             </li>
             <li>
-              <a href="/" className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:text-primary-brand-color hover:bg-opacity-10" > <FaTwitter size={20}/> </a>
+              <a href="/" className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:text-primary-brand-color hover:bg-opacity-10" > <FaTwitter size={20} /> </a>
             </li>
             <li>
-              <a href="/" className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:text-primary-brand-color hover:bg-opacity-10" > <FaInstagram size={20}/> </a>
+              <a href="/" className="w-8 h-8 flex items-center justify-center rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:text-primary-brand-color hover:bg-opacity-10" > <FaInstagram size={20} /> </a>
             </li>
             <li>
-              <a href="/" className="transition-colors h-8 flex items-center gap-x-2 border border-gray-100 rounded-lg text-sm text-gray-600 px-3 hover:bg-purple-50 hover:text-primary-brand-color"> <BiGlobe size={1}/> Türkçe (TR) </a>
+              <a href="/" className="transition-colors h-8 flex items-center gap-x-2 border border-gray-100 rounded-lg text-sm text-gray-600 px-3 hover:bg-purple-50 hover:text-primary-brand-color"> <BiGlobe size={1} /> Türkçe (TR) </a>
             </li>
           </ul>
         </div>
